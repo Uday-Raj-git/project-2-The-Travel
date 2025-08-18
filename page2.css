@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url(travel1.png);
+    background:
+     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+     url(travel1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+.logo{
+   display: block;
+    margin-left: 20px;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    color: white;
+}
+.heading {
+    text-align: center;  /* text ko center karega */
+    margin-top: 20px;    /* upar se thoda space dega */
+}
+
+.heading h1 {
+    font-family: Arial, sans-serif; /* font style */
+    font-size: 2.5rem;              /* size bada karega */
+    color: rgb(255, 255, 255);                /* text color */
+    text-shadow: 2px 2px 4px gray;  /* halka shadow effect */
+}
+
+.video-box {
+  width: 480px;
+  height: 270px;
+  border-radius: 16px;
+  overflow: hidden;             /* rounded corners apply honge */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); /* YouTube style shadow */
+  background: black;            /* background fallback */
+  vertical-align: middle; /* vertically center video */
+  margin: 20px auto;  /* center the video box */
+  
+}
+
+.myVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;            /* poster & video stretch na ho, properly fill kare */
+}
+.video-box1 {
+  width: 480px;
+  height: 270px;
+  border-radius: 16px;
+  overflow: hidden;             /* rounded corners apply honge */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); /* YouTube style shadow */
+  background: black;            /* background fallback */
+  vertical-align: middle; /* vertically center video */
+  margin: 20px auto;  /* center the video box */
+  
+}
+
+.myVideo1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;            /* poster & video stretch na ho, properly fill kare */
+}
+
